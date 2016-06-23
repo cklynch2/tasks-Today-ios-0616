@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B586DB81D1B20C300B19EC6 /* FISEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B586DB71D1B20C300B19EC6 /* FISEventDetailViewController.m */; };
 		603546018E6C43D49C92DBDC /* libPods-tasksTodayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254A474813AE4959A6146617 /* libPods-tasksTodayTests.a */; };
 		D8208CB41952F75100A0FA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CB31952F75100A0FA03 /* Foundation.framework */; };
 		D8208CB61952F75100A0FA03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CB51952F75100A0FA03 /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B586DB61D1B20C300B19EC6 /* FISEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISEventDetailViewController.h; sourceTree = "<group>"; };
+		1B586DB71D1B20C300B19EC6 /* FISEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEventDetailViewController.m; sourceTree = "<group>"; };
 		254A474813AE4959A6146617 /* libPods-tasksTodayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasksTodayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC76044E17B53B9A71E8C4 /* Pods-tasksTodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tasksTodayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tasksTodayTests/Pods-tasksTodayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8208CB01952F75100A0FA03 /* tasksToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tasksToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,11 +137,13 @@
 		D8208CB91952F75100A0FA03 /* tasksToday */ = {
 			isa = PBXGroup;
 			children = (
+				D8208CC51952F75100A0FA03 /* Main.storyboard */,
 				D8208CC21952F75100A0FA03 /* FISAppDelegate.h */,
 				D8208CC31952F75100A0FA03 /* FISAppDelegate.m */,
-				D8208CC51952F75100A0FA03 /* Main.storyboard */,
 				D8208CC81952F75100A0FA03 /* FISViewController.h */,
 				D8208CC91952F75100A0FA03 /* FISViewController.m */,
+				1B586DB61D1B20C300B19EC6 /* FISEventDetailViewController.h */,
+				1B586DB71D1B20C300B19EC6 /* FISEventDetailViewController.m */,
 				D8208CCB1952F75100A0FA03 /* Images.xcassets */,
 				D8208CBA1952F75100A0FA03 /* Supporting Files */,
 			);
@@ -310,6 +315,7 @@
 				D8208CCA1952F75100A0FA03 /* FISViewController.m in Sources */,
 				D8208CC01952F75100A0FA03 /* main.m in Sources */,
 				D8208CC41952F75100A0FA03 /* FISAppDelegate.m in Sources */,
+				1B586DB81D1B20C300B19EC6 /* FISEventDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="39S-gd-eyQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="39S-gd-eyQ">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="778" y="83"/>
         </scene>
-        <!--View Controller-->
+        <!--Event Detail View Controller-->
         <scene sceneID="npS-XR-zte">
             <objects>
-                <viewController id="08q-Pe-HTm" sceneMemberID="viewController">
+                <viewController id="08q-Pe-HTm" customClass="FISEventDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sly-me-kIz"/>
                         <viewControllerLayoutGuide type="bottom" id="BwX-3J-MgW"/>
@@ -78,6 +78,9 @@
                         </accessibility>
                     </view>
                     <navigationItem key="navigationItem" id="jML-hK-JxE"/>
+                    <connections>
+                        <outlet property="eventsTextView" destination="MJ7-Oe-1dd" id="n8I-nm-s80"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNZ-sn-vCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,11 +105,6 @@
             <point key="canvasLocation" x="598" y="751"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="nYA-U4-dJg"/>
     </inferredMetricsTieBreakers>

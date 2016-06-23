@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import "FISEventDetailViewController.h"
 
 @interface FISViewController : UIViewController
 
